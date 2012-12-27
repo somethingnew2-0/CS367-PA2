@@ -1,0 +1,166 @@
+Enter command (? for help)> ?
+s (save)      l (load)       d (display)
+f (forward)   b (backward)   j (jump)
+r (remove)    a (add after)  i (insert before)
+c (contains)  u (update)     x (exit)
+Enter command (? for help)> d
+no images
+Enter command (? for help)> j
+invalid command
+Enter command (? for help)> j hello
+invalid command
+Enter command (? for help)> j 10
+no images
+Enter command (? for help)> i
+invalid command
+Enter command (? for help)> s
+invalid command
+Enter command (? for help)> s info.txt
+no images to save
+Enter command (? for help)> c
+invalid command
+Enter command (? for help)> c a
+no images
+Enter command (? for help)> a image01.jpg
+--> image01.jpg [0] <--
+Enter command (? for help)> u 500
+--> image01.jpg [500] <--
+Enter command (? for help)> a   image02.jpg
+--> image02.jpg [0] <--
+    image01.jpg [500]
+Enter command (? for help)> u -200
+invalid command
+Enter command (? for help)> i image03.jpg
+    image01.jpg [500]
+--> image03.jpg [0] <--
+    image02.jpg [0]
+Enter command (? for help)> a image 19.jpg
+invalid command
+Enter command (? for help)> d
+image03.jpg [0]
+image02.jpg [0]
+image01.jpg [500]
+Enter command (? for help)> s images.txt
+Enter command (? for help)> d
+image03.jpg [0]
+image02.jpg [0]
+image01.jpg [500]
+Enter command (? for help)> f
+    image03.jpg [0]
+--> image02.jpg [0] <--
+    image01.jpg [500]
+Enter command (? for help)> a image04.gif
+    image02.jpg [0]
+--> image04.gif [0] <--
+    image01.jpg [500]
+Enter command (? for help)> j 3
+    image03.jpg [0]
+--> image02.jpg [0] <--
+    image04.gif [0]
+Enter command (? for help)> u 70
+    image03.jpg [0]
+--> image02.jpg [70] <--
+    image04.gif [0]
+Enter command (? for help)> d
+image02.jpg [70]
+image04.gif [0]
+image01.jpg [500]
+image03.jpg [0]
+Enter command (? for help)> a Learn@UW.html
+invalid command
+Enter command (? for help)> i   image05.pdf
+    image03.jpg [0]
+--> image05.pdf [0] <--
+    image02.jpg [70]
+Enter command (? for help)> j -2
+    image04.gif [0]
+--> image01.jpg [500] <--
+    image03.jpg [0]
+Enter command (? for help)> i image06.gif
+    image04.gif [0]
+--> image06.gif [0] <--
+    image01.jpg [500]
+Enter command (? for help)> d
+image06.gif [0]
+image01.jpg [500]
+image03.jpg [0]
+image05.pdf [0]
+image02.jpg [70]
+image04.gif [0]
+Enter command (? for help)> c jpg
+    image06.gif [0]
+--> image01.jpg [500] <--
+    image03.jpg [0]
+Enter command (? for help)> c jpg
+    image01.jpg [500]
+--> image03.jpg [0] <--
+    image05.pdf [0]
+Enter command (? for help)> c bmp
+not found
+Enter command (? for help)> c gif
+    image02.jpg [70]
+--> image04.gif [0] <--
+    image06.gif [0]
+Enter command (? for help)> d
+image04.gif [0]
+image06.gif [0]
+image01.jpg [500]
+image03.jpg [0]
+image05.pdf [0]
+image02.jpg [70]
+Enter command (? for help)> r
+    image02.jpg [70]
+--> image06.gif [0] <--
+    image01.jpg [500]
+Enter command (? for help)> b
+    image05.pdf [0]
+--> image02.jpg [70] <--
+    image06.gif [0]
+Enter command (? for help)> u 350
+    image05.pdf [0]
+--> image02.jpg [350] <--
+    image06.gif [0]
+Enter command (? for help)> b
+    image03.jpg [0]
+--> image05.pdf [0] <--
+    image02.jpg [350]
+Enter command (? for help)> r
+    image03.jpg [0]
+--> image02.jpg [350] <--
+    image06.gif [0]
+Enter command (? for help)> d
+image02.jpg [350]
+image06.gif [0]
+image01.jpg [500]
+image03.jpg [0]
+Enter command (? for help)> l info.txt
+unable to load
+Enter command (? for help)> l inputLoop.txt
+Enter command (? for help)> u 150
+    image03.jpg [0]
+--> intro.gif [150] <--
+    StateStreet01.jpg [200]
+Enter command (? for help)> d
+intro.gif [150]
+StateStreet01.jpg [200]
+Lincoln07.jpg [250]
+MemorialUnion01.jpg [1000]
+StateStreet02.jpg [300]
+UnionSouth05.jpg [1000]
+KohlCenter12.jpg [200]
+recreation.gif [300]
+SERF04.jpg [300]
+Nat16.jpg [500]
+Shell02.jpg [200]
+conclusion.gif [150]
+credits01.pdf [70]
+credits02.pdf [70]
+credits03.pdf [100]
+image02.jpg [350]
+image06.gif [0]
+image01.jpg [500]
+image03.jpg [0]
+Enter command (? for help)> s images.txt
+warning: file already exists, will be overwritten
+Enter command (? for help)> x
+exit

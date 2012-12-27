@@ -1,0 +1,46 @@
+?
+d
+j
+j hello
+j 10
+i
+s
+s info.txt
+c
+c a
+a image01.jpg
+u 500
+a   image02.jpg
+u -200
+i image03.jpg
+a image 19.jpg
+d
+s images.txt
+d
+f
+a image04.gif
+j 3
+u 70
+d
+a Learn@UW.html
+i   image05.pdf
+j -2
+i image06.gif
+d
+c jpg
+c jpg
+c bmp
+c gif
+d
+r
+b
+u 350
+b
+r
+d
+l info.txt
+l inputLoop.txt
+u 150
+d
+s images.txt
+x

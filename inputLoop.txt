@@ -1,0 +1,15 @@
+intro.gif 300
+StateStreet01.jpg 200
+Lincoln07.jpg 250
+MemorialUnion01.jpg 1000
+StateStreet02.jpg 300
+UnionSouth05.jpg 1000
+KohlCenter12.jpg 200
+recreation.gif 300
+SERF04.jpg 300
+Nat16.jpg 500
+Shell02.jpg 200
+conclusion.gif 150
+credits01.pdf 70
+credits02.pdf 70
+credits03.pdf 100
